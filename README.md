@@ -2,7 +2,6 @@ Reproducer for https://github.com/quarkusio/quarkus/issues/39133
 
 ## Prerequisite
 - A non `mavenCetral` and `gradlePluginCentral` to get Maven packages and Gradle plugins from, e.g. using an internal Artifactory
-- An HTTP-proxy to configure in `gradle.properties`
 
 ## Steps to Reproduce
 
