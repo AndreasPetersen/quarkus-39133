@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        maven {
+            url 'https://internal-artifactory.com/artifactory/plugins-release/'
+        }
+    }
+
+    plugins {
+        id "${quarkusPluginId}" version "${quarkusPluginVersion}"
+    }
+}
+rootProject.name='code-with-quarkus'
